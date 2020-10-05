@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
-    int i,num,k;
+    int i,k,num;
     cout<<"Enter Number and  No of Iterations:";
     cin>>num>>k;
-    for ( i = 1; i <= k; i++)
+    for ( i = 0; i <= k; i++)
     {
         if (num%10==0)
         {
@@ -15,7 +15,6 @@ int main()
         {
             num-=1;
         }
-        
     }
     return 0;
 }

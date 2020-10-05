@@ -7,14 +7,18 @@ int main()
     string str;
     cout<<"Enter the String:";
     getline(cin,str);
-    for (i = 0; str.length(); i++)
+    for (i = 0; i< str.length(); i++)
     {
         if (isupper(str[i]))
         {
             count++;
         }
+        else
+        {
+            count1++;
+        }
+        
     }
-    count1=str.length()-count;
     for(i=0;i<str.length();i++)
     {
         if (count>count1)
